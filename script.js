@@ -194,6 +194,8 @@ const deck = [
     { word: "CASAMENTO", forbidden: ["NOIVA", "IGREJA", "ALIANÇA", "PADRE", "FESTA"] }
 ];
 
+// --- NOVA VARIÁVEL: Baralho da Partida Atual ---
+let gameDeck = []; 
 let currentScore = 0;
 let timeLeft = 90;
 let timerInterval;
@@ -219,16 +221,31 @@ function startGame() {
     currentScore = 0;
     els.score.innerText = currentScore;
     timeLeft = 90;
+
+    // --- CRIA UMA CÓPIA DO BARALHO NO INÍCIO ---
+    // Usamos o operador spread [...] para não estragar o banco de dados original
+    gameDeck = [...deck]; 
     
     loadRandomCard();
     startTimer();
 }
 
 function loadRandomCard() {
-    // Carrega dados direto
-    const randomIndex = Math.floor(Math.random() * deck.length);
-    const card = deck[randomIndex];
+    // SE O BARALHO ACABOU:
+    if (gameDeck.length === 0) {
+        alert("Fim das cartas! O baralho será reembaralhado.");
+        gameDeck = [...deck]; // Recomeça o baralho sem zerar pontos
+    }
 
+    // Sorteia baseado no tamanho ATUAL do baralho temporário
+    const randomIndex = Math.floor(Math.random() * gameDeck.length);
+    const card = gameDeck[randomIndex];
+
+    // --- REMOVE A CARTA USADA ---
+    // splice(posição, quantidade) -> remove 1 item na posição sorteada
+    gameDeck.splice(randomIndex, 1);
+
+    // Renderiza a carta
     els.targetWord.innerText = card.word;
     els.forbiddenList.innerHTML = '';
     
@@ -262,6 +279,7 @@ function correctCard() {
 }
 
 function skipCard() {
+    // Não altera pontuação
     updateScore();
     blinkScreen('#c0392b');
     loadRandomCard();
@@ -285,5 +303,3 @@ function blinkScreen(color) {
         document.body.style.backgroundColor = ''; 
     }, 150);
 }
-
-
