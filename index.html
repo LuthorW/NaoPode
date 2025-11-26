@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Não Pode | Luthor Corp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="score-board">PONTOS: <span id="score">0</span></div>
+
+    <h1>Luthor Corp <span class="version-tag">v3.1 Unlocked</span></h1>
+
+    <div id="lobby">
+        <p>Bem-vindo ao <span class="highlight">NÃO PODE</span>.</p>
+        <p>Regras:<br>
+           1. Descreva a palavra azul.<br>
+           2. Não diga as palavras amarelas.<br>
+           3. Seja rápido.</p>
+        <button class="btn-start" onclick="startGame()">INICIAR SISTEMA</button>
+    </div>
+
+    <div id="timerArea">
+        <div class="timer-display" id="timer">60</div>
+    </div>
+
+    <div class="card-container" id="gameCard">
+        <div class="card-header">
+            <span id="targetWord">CARREGANDO...</span>
+        </div>
+        <div class="forbidden-list" id="forbiddenWords">
+            </div>
+    </div>
+
+    <div class="game-controls" id="controls">
+        <button class="btn-skip" onclick="skipCard()">PULAR (-1)</button>
+        <button class="btn-correct" onclick="correctCard()">ACERTOU (+1)</button>
+    </div>
+
+    <div class="footer-lc">LUTHOR CORP DEVELOPMENT DIVISION</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
