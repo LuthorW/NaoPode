@@ -195,7 +195,7 @@ const deck = [
 ];
 
 let currentScore = 0;
-let timeLeft = 60;
+let timeLeft = 90;
 let timerInterval;
 
 // Elementos DOM
@@ -218,7 +218,7 @@ function startGame() {
     
     currentScore = 0;
     els.score.innerText = currentScore;
-    timeLeft = 60;
+    timeLeft = 90;
     
     loadRandomCard();
     startTimer();
@@ -285,4 +285,5 @@ function blinkScreen(color) {
         document.body.style.backgroundColor = ''; 
     }, 150);
 }
+
 
