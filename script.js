@@ -102,6 +102,78 @@ const deck = [
     { word: "SUPERMAN", forbidden: ["CLARK KENT", "KRYPTONITA", "CAPA", "VOAR", "FORTE"] },
     { word: "BARBIE", forbidden: ["BONECA", "ROSA", "KEN", "BRINQUEDO", "LOIRA"] },
     { word: "STAR WARS", forbidden: ["JEDI", "SABRE DE LUZ", "DARTH VADER", "ESPAÇO", "FILME"] },
+    
+    // 🎬 CINEMA & SÉRIES
+    { word: "TITANIC", forbidden: ["NAVIO", "ROSE", "JACK", "AFUNDAR", "GELO"] },
+    { word: "VINGADORES", forbidden: ["MARVEL", "HERÓIS", "THANOS", "ULTIMATO", "FILME"] },
+    { word: "SHREK", forbidden: ["OGRO", "FIONA", "BURRO", "VERDE", "PÂNTANO"] },
+    { word: "TOY STORY", forbidden: ["WOODY", "BUZZ", "BRINQUEDO", "ANDY", "COWBOY"] },
+    { word: "O REI LEÃO", forbidden: ["SIMBA", "MUFASA", "TIMÃO", "PUMBA", "HAKUNA"] },
+    { word: "MATRIX", forbidden: ["NEO", "PÍLULA", "COMPUTADOR", "KEANU", "ESCOLHA"] },
+    { word: "LA CASA DE PAPEL", forbidden: ["ROUBO", "BANCO", "MÁSCARA", "PROFESSOR", "NETFLIX"] },
+    { word: "FRIENDS", forbidden: ["SÉRIE", "RACHEL", "ROSS", "CAFÉ", "SOFÁ"] },
+    { word: "STRANGER THINGS", forbidden: ["ELEVEN", "MONSTRO", "MUNDO INVERTIDO", "ANOS 80", "NETFLIX"] },
+    { word: "JURASSIC PARK", forbidden: ["DINOSSAURO", "PARQUE", "T-REX", "ILHA", "FILME"] },
+
+    // 🎵 MÚSICA & FESTA
+    { word: "ANITTA", forbidden: ["FUNK", "CANTORA", "ENVOLVER", "BRASIL", "GIRL"] },
+    { word: "VIOLÃO", forbidden: ["CORDAS", "TOCAR", "MÚSICA", "INSTRUMENTO", "MADEIRA"] },
+    { word: "BEYONCÉ", forbidden: ["CANTORA", "DIVA", "JAY-Z", "SINGLE", "LADIES"] },
+    { word: "ROCK", forbidden: ["GUITARRA", "BANDA", "PESADO", "METAL", "ROLL"] },
+    { word: "PIANO", forbidden: ["TECLAS", "BRANCO", "PRETO", "MÚSICA", "CAUDA"] },
+    { word: "FONE DE OUVIDO", forbidden: ["MÚSICA", "ORELHA", "ESCUTAR", "SEM FIO", "SOM"] },
+    { word: "MICHAEL JACKSON", forbidden: ["REI", "POP", "MOONWALK", "THRILLER", "LUVA"] },
+    { word: "SERTANEJO", forbidden: ["SOFRENCIA", "DUPLA", "VIOLÃO", "CHAPÉU", "INTERIOR"] },
+    { word: "CARNAVAL", forbidden: ["FESTA", "SAMBA", "FERIADO", "FANTASIA", "BLOCO"] },
+    { word: "KARAOKÊ", forbidden: ["CANTAR", "MICROFONE", "MÚSICA", "LETRA", "VERGONHA"] },
+
+    // 🍔 COMIDA & BEBIDA
+    { word: "SUSHI", forbidden: ["PEIXE", "ARROZ", "JAPONÊS", "CRU", "HASHI"] },
+    { word: "LASANHA", forbidden: ["MASSA", "QUEIJO", "GARFIELD", "FORNO", "CAMADAS"] },
+    { word: "COXINHA", forbidden: ["FRANGO", "MASSA", "FRITA", "SALGADO", "CATUPIRY"] },
+    { word: "AÇAÍ", forbidden: ["ROXO", "GRANOLA", "FRUTA", "GELADO", "TIGELA"] },
+    { word: "BRIGADEIRO", forbidden: ["CHOCOLATE", "DOCE", "FESTA", "GRANULADO", "LEITE CONDENSADO"] },
+    { word: "PÃO DE QUEIJO", forbidden: ["MINAS", "POLVILHO", "CAFÉ", "FORNO", "REDONDO"] },
+    { word: "MACARRÃO", forbidden: ["MASSA", "ITÁLIA", "MOLHO", "ESPAGUETE", "GARFO"] },
+    { word: "BOLO", forbidden: ["ANIVERSÁRIO", "VELAS", "PARABÉNS", "DOCE", "CORTAR"] },
+    { word: "OVO", forbidden: ["GALINHA", "FRITO", "COZIDO", "OMELETE", "CAFÉ"] },
+    { word: "CERVEJA", forbidden: ["BEBIDA", "ÁLCOOL", "GELADA", "BAR", "COPO"] },
+
+    // 🌍 LUGARES & NATUREZA
+    { word: "TORRE EIFFEL", forbidden: ["PARIS", "FRANÇA", "FERRO", "ALTO", "TURISMO"] },
+    { word: "LUA", forbidden: ["NOITE", "CÉU", "SATÉLITE", "CHEIA", "LOBO"] },
+    { word: "SOL", forbidden: ["QUENTE", "DIA", "ESTRELA", "VERÃO", "LUZ"] },
+    { word: "DESERTO", forbidden: ["AREIA", "SECO", "CAMELO", "SAARA", "SOL"] },
+    { word: "ANTÁRTIDA", forbidden: ["GELO", "FRIO", "PINGUIM", "NEVE", "POLO SUL"] },
+    { word: "CRISTO REDENTOR", forbidden: ["RIO", "ESTÁTUA", "BRAÇOS", "JESUS", "MORRO"] },
+    { word: "SHOPPING", forbidden: ["LOJAS", "COMPRAS", "PRAÇA", "CINEMA", "PASSEAR"] },
+    { word: "ACADEMIA", forbidden: ["TREINO", "PESO", "MÚSCULO", "ESTEIRA", "SUAR"] },
+    { word: "COZINHA", forbidden: ["COMIDA", "FOGÃO", "GELADEIRA", "PRATO", "COZINHAR"] },
+    { word: "BANHEIRO", forbidden: ["BANHO", "CHUVEIRO", "PRIVADA", "DENTE", "LIMPAR"] },
+
+    // 🛋️ OBJETOS DO COTIDIANO
+    { word: "ESPELHO", forbidden: ["REFLEXO", "VIDRO", "OLHAR", "ROSTO", "QUEBRAR"] },
+    { word: "CHAVE", forbidden: ["PORTA", "ABRIR", "CADEADO", "CARRO", "TRANCAR"] },
+    { word: "PISCINA", forbidden: ["ÁGUA", "NADAR", "VERÃO", "AZUL", "CLORO"] },
+    { word: "CADEIRA", forbidden: ["SENTAR", "MESA", "ENCOSTO", "PERNAS", "MÓVEL"] },
+    { word: "LIVRO", forbidden: ["LER", "PÁGINAS", "HISTÓRIA", "PAPEL", "BIBLIOTECA"] },
+    { word: "CANETA", forbidden: ["ESCREVER", "TINTA", "PAPEL", "AZUL", "ESCOLA"] },
+    { word: "SAPATO", forbidden: ["PÉ", "CADARÇO", "TÊNIS", "ANDAR", "CALÇAR"] },
+    { word: "GUARDA-CHUVA", forbidden: ["CHUVA", "MOLHADO", "ABRIR", "CABO", "PROTEÇÃO"] },
+    { word: "MOCHILA", forbidden: ["ESCOLA", "COSTAS", "GUARDAR", "ZÍPER", "BOLSA"] },
+    { word: "TRAVESSEIRO", forbidden: ["DORMIR", "CAMA", "CABEÇA", "FOFO", "FRONHA"] },
+
+    // 🧠 CONCEITOS & ALEATÓRIOS
+    { word: "FANTASMA", forbidden: ["ASSOMBRAÇÃO", "ESPÍRITO", "MEDO", "LENÇOL", "MORTO"] },
+    { word: "MENTIRA", forbidden: ["VERDADE", "NARIZ", "PINÓQUIO", "FALSO", "ENGANAR"] },
+    { word: "SEGREDO", forbidden: ["CONTAR", "ESCONDER", "DISCRETO", "PSIU", "MISTÉRIO"] },
+    { word: "FUTURO", forbidden: ["TEMPO", "AMANHÃ", "PREVISÃO", "DESTINO", "PASSADO"] },
+    { word: "SORTE", forbidden: ["AZAR", "LOTERIA", "TREVO", "GANHAR", "ACASO"] },
+    { word: "NATAL", forbidden: ["PAPAI NOEL", "DEZEMBRO", "PRESENTE", "ÁRVORE", "FESTA"] },
+    { word: "ZUMBI", forbidden: ["MORTO", "VIVO", "CÉREBRO", "WALKING DEAD", "MORDIDA"] },
+    { word: "ALIENÍGENA", forbidden: ["ESPAÇO", "OVNI", "VERDE", "MARTE", "ET"] },
+    { word: "AMIZADE", forbidden: ["AMIGO", "GOSTAR", "JUNTOS", "PARCEIRO", "BEST"] },
+    { word: "SAUDADE", forbidden: ["SENTIMENTO", "FALTA", "LONGE", "LEMBRANÇA", "TRISTE"] },
 
     // Apps / Moderno
     { word: "YOUTUBE", forbidden: ["VÍDEO", "CANAL", "LIKE", "ASSISTIR", "INFLUENCER"] },
@@ -213,3 +285,4 @@ function blinkScreen(color) {
         document.body.style.backgroundColor = ''; 
     }, 150);
 }
+
