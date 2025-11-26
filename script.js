@@ -47,6 +47,44 @@ const deck = [
     { word: "ZOOLÓGICO", forbidden: ["ANIMAIS", "JAULA", "VISITA", "PARQUE", "BICHOS"] },
     { word: "BRASIL", forbidden: ["PAÍS", "VERDE E AMARELO", "FUTEBOL", "SAMBA", "AMÉRICA"] },
 
+
+    // AOT
+    // PERSONAGENS PRINCIPAIS
+    { word: "EREN YEAGER", forbidden: ["TITÃ", "MIKASA", "PORÃO", "PROTAGONISTA", "TATAKAE"] },
+    { word: "MIKASA ACKERMAN", forbidden: ["EREN", "CACHECOL", "FORTE", "PROTEGER", "CASA"] },
+    { word: "ARMIN ARLERT", forbidden: ["LOIRO", "COLOSSAL", "MAR", "INTELIGENTE", "ESTRATEGISTA"] },
+    { word: "LEVI ACKERMAN", forbidden: ["CAPITÃO", "BAIXINHO", "LIMPEZA", "BEYBLADE", "FORTE"] },
+    { word: "ERWIN SMITH", forbidden: ["COMANDANTE", "SASAGEYO", "BRAÇO", "DISCURSO", "MORRER"] },
+    { word: "HANGE ZOE", forbidden: ["ÓCULOS", "CIENTISTA", "LOUCA", "TITÃS", "QUATRO-OLHOS"] },
+    { word: "SASHA BRAUS", forbidden: ["BATATA", "COMER", "CARNE", "ARQUEIRA", "MENINA"] },
+    { word: "JEAN KIRSTEIN", forbidden: ["CAVALO", "CARA DE CAVALO", "LÍDER", "TROPA", "AMIGO"] },
+    { word: "HISTORIA REISS", forbidden: ["RAINHA", "CRISTA", "YMIR", "LOIRA", "REAL"] },
+    
+    // OS 9 TITÃS & INIMIGOS
+    { word: "TITÃ COLOSSAL", forbidden: ["GRANDE", "VAPOR", "BERTOLT", "ARMIN", "MURO"] },
+    { word: "TITÃ BLINDADO", forbidden: ["REINER", "ARMADURA", "QUEBRAR", "TRAIDOR", "GUERREIRO"] },
+    { word: "TITÃ FÊMEA", forbidden: ["ANNIE", "CRISTAL", "LUTADORA", "LEONHART", "FLORESTA"] },
+    { word: "TITÃ BESTIAL", forbidden: ["ZEKE", "MACACO", "PELUDO", "ARREMESSAR", "IRMÃO"] },
+    { word: "TITÃ MANDÍBULA", forbidden: ["PORCO", "GALLIARD", "YMIR", "DENTES", "RÁPIDO"] },
+    { word: "TITÃ QUADRÚPEDE", forbidden: ["PIECK", "CARROÇA", "MALA", "ANDAR", "QUATRO"] },
+    { word: "TITÃ MARTELO DE GUERRA", forbidden: ["BRANCO", "MARTELO", "TYBUR", "EREN", "CHÃO"] },
+    { word: "TITÃ FUNDADOR", forbidden: ["YMIR", "COORDENADA", "REI", "PODER", "GRITAR"] },
+    
+    // MARLEY & GUERREIROS
+    { word: "REINER BRAUN", forbidden: ["BLINDADO", "DEPRIMIDO", "TRAIDOR", "GUERREIRO", "PAREDE"] },
+    { word: "BERTOLT HOOVER", forbidden: ["COLOSSAL", "ALTO", "SUAR", "TIMIDO", "EXPLOSÃO"] },
+    { word: "ANNIE LEONHART", forbidden: ["FÊMEA", "NARIZ", "CONGELADA", "PAI", "ANEL"] },
+    { word: "ZEKE YEAGER", forbidden: ["BESTIAL", "IRMÃO", "PLANO", "EUTANÁSIA", "GRISHA"] },
+    { word: "GABI BRAUN", forbidden: ["SASHA", "TIRO", "RIFLE", "PRIM A", "CRIANÇA"] },
+    { word: "FALCO GRICE", forbidden: ["PÁSSARO", "GABI", "TITÃ", "VOAR", "MANDÍBULA"] },
+    { word: "YMIR", forbidden: ["HISTORIA", "CRISTA", "MANDÍBULA", "TITÃ", "CARTA"] },
+    { word: "PIECK FINGER", forbidden: ["CARROÇA", "QUADRÚPEDE", "OHAYO", "PORCO", "ANDAR DE QUATRO"] },
+    { word: "PORCO GALLIARD", forbidden: ["MANDÍBULA", "REINER", "QUEBRA-NOZES", "MARCEL", "FALCO"] },
+    { word: "MARCEL GALLIARD", forbidden: ["PORCO", "REINER", "YMIR", "MORREU", "IRMÃO"] },
+    { word: "YELENA", forbidden: ["ZEKE", "ALTA", "BARBA", "FANÁTICA", "MARLEY"] },
+    { word: "KENNY ACKERMAN", forbidden: ["LEVI", "TIO", "ESTRIPADOR", "CHAPÉU", "REI"] },
+
+
     // Profissões
     { word: "MÉDICO", forbidden: ["HOSPITAL", "DOENÇA", "SAÚDE", "DOUTOR", "CURAR"] },
     { word: "PROFESSOR", forbidden: ["ENSINAR", "ESCOLA", "QUADRO", "MATÉRIA", "APRENDER"] },
